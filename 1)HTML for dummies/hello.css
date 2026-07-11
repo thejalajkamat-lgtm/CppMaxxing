@@ -1,0 +1,106 @@
+  /*  * {
+      color: blue; --> This is universal selector
+    } *   */
+
+         h1 {
+            color:red
+           }
+
+                     /* PART - 1 */
+
+                   #headingOne {
+          color: black;    /* id selector */
+         }            /* not so professional so we use the method below called class selector */
+            #headingTwo {
+          color: yellow;      /* id selector */
+         }
+
+           .myClass {
+            color: magenta; /* class selector */
+           }
+
+                       /* PART - 2 */
+       
+         button{
+            color:blue;
+            background-color: greenyellow;
+          }
+         
+   /*   rgb(255,0,0)=red  rgb(0,255,0)=green  rgb(0,0,255)=blue 
+            red+green=yellow  [rgb(255,255,0)]
+      Use COLOR PICKER on GOOGLE to find right rgb values as well as hexadecimal values of colors 
+      Also check out Coolors by Searching color pallete on Google for different color options
+             R              G              B
+           0-255           0-255         0-255
+           00-ff           00-ff         00-ff
+          #ff0000         #00ff00       #0000ff  (255=ff ; 0=00)
+    Since yellow=red+green so yellow = #ffff00 
+               * = ASTERISK
+               & = AMPERSAND   */
+
+
+
+                              /* PART - 3 */
+            body{
+          background-color:#0000ff;
+          }
+
+          p {
+             text-align: center;  /*  start = left
+                                  end = right      */
+             text-decoration: dotted underline;
+             color:rgb(255, 255, 255)
+          }
+             a {
+          color: orange;
+          text-decoration: none;/* the underline of the link disappears */
+         }
+
+    
+
+                               /* PART - 4 */
+
+         #h1 {
+          font-weight: 100;       /* NORMAL  BOLD LIGHT */
+         }
+
+         #h2 {
+            font-weight: 300;
+         }
+          
+         #h3 {
+          font-weight: 600;
+         }
+           #h4 {
+          font-weight: 900;
+         }
+           #h5 {
+            text-align: center;
+            text-decoration: wavy underline;
+           }
+          
+                              /* PART - 5 */
+
+           #three {
+            font-size: 30px;
+           }
+             #four {
+            font-size: 10px;
+           }
+             #five {
+            font-size: 30px;
+           }
+
+                            /* PART - 6 */
+            #P  {
+               font-size: 25px;
+               line-height: 50px;
+               text-transform: uppercase;
+               font-family: Arial;
+            }
+              #Q  {
+               font-size: 15px;
+               line-height: 30px;
+               text-transform: lowercase;   /* Capitalise means first letter of each word is inn uppercase */
+              font-family: cursive;
+            }

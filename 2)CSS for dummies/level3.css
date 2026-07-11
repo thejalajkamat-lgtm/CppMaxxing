@@ -1,0 +1,32 @@
+div{
+ background-color: rgba(255,0,0,0.8);     /*reducing or increasing opacity */
+    display: inline-block; 
+    width: 100px;
+    height: 100px;
+    margin:25px;
+    padding: 25px; 
+
+}
+button {
+    display: block;
+}
+#box2 {
+    /* display: none; */
+    visibility: hidden;
+}
+/* #bo1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+#bo2 {
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5rem;
+    height: 1vh;
+} */
+  

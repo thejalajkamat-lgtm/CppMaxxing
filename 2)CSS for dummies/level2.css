@@ -1,0 +1,51 @@
+                     /* PART - 1 */
+ h1 {
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    border-width: 7px;  
+    border-style: dotted;
+    border-color: coral;
+     text-align: center;
+ }
+ div {
+    height: 100px;
+    width: 100px;
+    background-color: lightseagreen;
+    border-width: 10px;
+    border-style: solid;
+    border-color: blueviolet;
+     text-align:right;
+ }    
+                        
+/* BORDER WIDTH + STYLE + COLOR = BORDER
+                                 SHORTHAND */
+p {
+    border: 10px solid brown; /* Used Border Shorthand */
+    border-radius: 30px; /* roundness of border */
+                          /* 50% for circle j */
+}
+                        /* PART - 2 */
+h2{
+    height:100px;
+    width: 300px;
+    background-color: bisque;
+    border: 10px solid brown; 
+    text-align: right; 
+    padding-left: 30px;
+    padding-right: 30px;/*TOP RIGHT BOTTOM LEFT*/
+} 
+                        
+h3{
+    height:100px;
+    width: 300px;
+    background-color: blue;
+    border: 10px solid brown; 
+    text-align: left; 
+    padding: 10px 20px 30px 40px; /*TOP RIGHT BOTTOM LEFT*/
+    margin-top: 100px ;
+}              
+                    /* PART - 3 */
+                    #a{
+                        background-color: pink;
+                    }

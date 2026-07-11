@@ -1,0 +1,58 @@
+                    /* PRACTICE SET - 1 */
+ *{
+    font-family: 'Times New Roman';  /* PRACTICE SET - 2; Question 2 :)*/
+ }     
+ 
+ div {
+   background-color: blue;
+   /* color: aliceblue; */
+ }
+
+ /*                 
+  .heading {          
+    color: red;       
+  } */
+   h1, h2, h3 {
+    color: red;
+   }
+
+   button {
+    background-color: green;
+   }
+                     /* PRACTICE SET - 2 */
+                #one {
+                  text-align: center;
+                  text-transform: uppercase;
+                }
+                #outer{
+                  font-size: 25px;
+                }
+                  #inner{
+                  font-size: 10px;
+                }
+                     /* PRACTICE SET - 3 */
+   #a{
+  height: 100px;
+  width: 100px;
+ 
+  border-radius: 50%;
+  background-color: red;
+      }
+    #b{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: yellow;
+      }
+    #c{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: green;
+      }
+   #p{
+    background-color: black;
+    width: 105px;
+   }
+              
+              

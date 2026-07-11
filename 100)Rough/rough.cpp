@@ -6,7 +6,7 @@
 // 5)linear & binary search, ✅
 // 6)sort✅ 7)patterns, 8)pointers(2 and 1)✅
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 int question_1(int arr[], int n){
     for(int i=1; i<n; i++){
@@ -19,6 +19,9 @@ int question_1(int arr[], int n){
 int main(){
     int arr[] ={1,2,3,3,5};
     int n = sizeof(arr)/sizeof(int);
-    cout << question_1(arr,n);
+    sort(arr, arr+n);
+    for(int i=0;i<n; i++){
+        cout << arr[i]<< ", ";
+    }
     return 0;
 }

@@ -46,9 +46,26 @@ int rev_arr(int i, int arr[], int n){
     swap(arr[i], arr[n-i-1]);
     rev_arr(i+1, arr, n);
 }
+int palindrome(int i, int arr[], int n){
+    if(i>n/2){
+        return true;
+    }
+    if(arr[i]!=arr[n-i-1]){
+        return false;
+    }
+    return palindrome(i+1, arr, n);
+}
+int fibonacci(int n){
+    if(n<=1) return n;
+    int last = fibonacci(n-1);
+    int slast = fibonacci(n-2);
+    return last + slast;
+}
 int main(){
     int arr[]={1,2,3,4,5};
+    int ara[]={1,2,3,2,1};
     int n = sizeof(arr)/sizeof(int);
+    int g = sizeof(ara)/sizeof(int);
     cout << add_num(1,2)<< endl;
     // hello();
     print_name(1,5);
@@ -63,5 +80,8 @@ int main(){
     for(int i=0; i<n; i++){
         cout << arr[i] << " ";
     }
+    cout << endl;
+    cout << palindrome(0, ara, g)<< endl;
+    cout << fibonacci(4);
     return 0;
 }

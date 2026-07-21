@@ -1,27 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-int hash_arr(){
-    int n;
-    cin>> n;
-    int arr[n];
-    for(int i=0; i<n;i++){
-        cin >> arr[i];
-    }
-    //precompute using hash function
-    int hash[13] = {0};
-    for(int i=0; i<n; i++){
-        hash[arr[i]] += 1;
-    }
-    int q;
-    cin >> q;
-    cout << "Answer: ";
-while(q--){
-    int number;
-    cin >> number;
-    //fetch
-    cout << hash[number] << endl;
-}
-}
 
 int hash_char(){
     string s;
@@ -39,6 +17,29 @@ int hash_char(){
         // fetch 
         cout << hash[c-'a']<< endl;
     }
+}
+
+int hash_arr(){
+    int n;
+    cin>> n;
+    int arr[n];
+    for(int i=0; i<n;i++){
+        cin >> arr[i];
+    }
+    //precompute using hash function
+    int hash[13] = {0};
+    for(int i=0; i<n; i++){
+        hash[arr[i]] += 1;
+    }
+    int q;
+    cin >> q;
+while(q--){
+    int number;
+    cin >> number;
+    cout << "Answer: ";
+    //fetch
+    cout << number << "Appears " <<hash[number] << "times" << endl;
+}
 }
  
 int hash_map(){
